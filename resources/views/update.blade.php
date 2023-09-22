@@ -95,12 +95,12 @@
                                     <select class="form-select" aria-label="Default select example" name="agama"
                                         value="">
                                         <option>{{ isset($Users['agama']) ? $Users['agama'] : '' }}</option>
-                                        <option>Islam</option>
-                                        <option>Kristen Protestan</option>
-                                        <option>Kristen Katolik</option>
-                                        <option>Hindu</option>
-                                        <option>Budha</option>
-                                        <option>Konghucu</option>
+                                        <option value="islam" @if($Users->agama == "Islam")@endif>Islam</option>
+                                        <option value="Protestan" @if($Users->agama == "Protestan")@endif>Kristen Protestan</option>
+                                        <option value="Katolik" @if($Users->agama == "Katolik")@endif>Kristen Katolik</option>
+                                        <option value="Hindu" @if($Users->agama == "Hindu")@endif>Hindu</option>
+                                        <option value="Budha" @if($Users->agama == "Budha")@endif>Budha</option>
+                                        <option value="Konghucu" @if($Users->agama == "Konghucu")@endif>Konghucu</option>
                                     </select>
                                     <div class="invalid-feedback">Please enter a valid Email adddress!</div>
                                 </div>
@@ -111,8 +111,8 @@
                                         value="">
                                         <option selected>{{ isset($Users['jenis_kelamin']) ? $Users['jenis_kelamin'] : '' }}
                                         </option>
-                                        <option value="Laki-laki">Laki-laki</option>
-                                        <option value="Perempuan">Perempuan</option>
+                                        <option value="Laki-laki" @if($Users->jenis_kelamin == "Laki-laki")@endif>Laki-laki</option>
+                                        <option value="Perempuan" @if($Users->jenis_kelamin == "perempuan")@endif>Perempuan</option>
                                     </select>
                                     <div class="invalid-feedback">Please, enter your name!</div>
                                 </div>
@@ -138,8 +138,9 @@
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
+            <script scr="{{asset('js/script.js')}}"></script>
 
-    @include('include.script')
+    {{-- @include('include.script') --}}
 
 </body>
 

@@ -19,9 +19,9 @@ use App\Http\Controllers\DashboardController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function () {
-    return view('welcome');
-})->middleware('auth');
+// Route::get('/', function () {
+//     return view('welcome');
+// })->middleware('auth');
 
 Route::get('login', [AuthController::class, 'login'])->name('login');
 Route::post('login', [AuthController::class, 'authenticating']);

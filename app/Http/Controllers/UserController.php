@@ -37,10 +37,10 @@ class UserController extends Controller
             'tanggal_lahir' => 'required|date',
         ]);
     }
-    public function update()
-    {
-        return view('update');
-    }
+    // public function update()
+    // {
+    //     return view('update');
+    // }
     public function edit($id)
     {
         $Users = user::find($id);
