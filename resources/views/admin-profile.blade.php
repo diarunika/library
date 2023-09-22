@@ -87,22 +87,17 @@
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-lg-3 col-md-4 label">Company</div>
+                                        <div class="col-lg-3 col-md-4 label">Status</div>
                                         <div class="col-lg-9 col-md-8"></div>
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-lg-3 col-md-4 label">Job</div>
+                                        <div class="col-lg-3 col-md-4 label">Jenis Kelamin</div>
                                         <div class="col-lg-9 col-md-8"></div>
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-lg-3 col-md-4 label">Country</div>
-                                        <div class="col-lg-9 col-md-8"></div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-lg-3 col-md-4 label">Address</div>
+                                        <div class="col-lg-3 col-md-4 label">Agama</div>
                                         <div class="col-lg-9 col-md-8"></div>
                                     </div>
 
@@ -148,7 +143,7 @@
 
                                         <div class="row mb-3">
                                             <label for="about"
-                                                class="col-md-4 col-lg-3 col-form-label">About</label>
+                                                class="col-md-4 col-lg-3 col-form-label">Status</label>
                                             <div class="col-md-8 col-lg-9">
                                                 <textarea name="about" class="form-control" id="about" style="height: 100px"></textarea>
                                             </div>
@@ -156,7 +151,7 @@
 
                                         <div class="row mb-3">
                                             <label for="company"
-                                                class="col-md-4 col-lg-3 col-form-label">Company</label>
+                                                class="col-md-4 col-lg-3 col-form-label">jenis_kelamin</label>
                                             <div class="col-md-8 col-lg-9">
                                                 <input name="company" type="text" class="form-control"
                                                     id="company" value="">
@@ -164,7 +159,7 @@
                                         </div>
 
                                         <div class="row mb-3">
-                                            <label for="Job" class="col-md-4 col-lg-3 col-form-label">Job</label>
+                                            <label for="Job" class="col-md-4 col-lg-3 col-form-label">Agama</label>
                                             <div class="col-md-8 col-lg-9">
                                                 <input name="job" type="text" class="form-control"
                                                     id="Job" value="">
@@ -173,7 +168,7 @@
 
                                         <div class="row mb-3">
                                             <label for="Country"
-                                                class="col-md-4 col-lg-3 col-form-label">Country</label>
+                                                class="col-md-4 col-lg-3 col-form-label">Phone</label>
                                             <div class="col-md-8 col-lg-9">
                                                 <input name="country" type="text" class="form-control"
                                                     id="Country" value="">
@@ -182,22 +177,12 @@
 
                                         <div class="row mb-3">
                                             <label for="Address"
-                                                class="col-md-4 col-lg-3 col-form-label">Address</label>
+                                                class="col-md-4 col-lg-3 col-form-label">Email</label>
                                             <div class="col-md-8 col-lg-9">
                                                 <input name="address" type="text" class="form-control"
                                                     id="Address" value="">
                                             </div>
                                         </div>
-
-                                        <div class="row mb-3">
-                                            <label for="Phone"
-                                                class="col-md-4 col-lg-3 col-form-label">Phone</label>
-                                            <div class="col-md-8 col-lg-9">
-                                                <input name="phone" type="text" class="form-control"
-                                                    id="Phone" value="">
-                                            </div>
-                                        </div>
-
                                         {{-- <div class="row mb-3">
                       <label for="Email" class="col-md-4 col-lg-3 col-form-label">Email</label>
                       <div class="col-md-8 col-lg-9">
