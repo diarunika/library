@@ -231,7 +231,7 @@ class UserSeeder extends Seeder
 // ebook
         DB::table('ebooks')->insert([
             'judul' => 'Belajar Goblok dari Bob Sadino',
-            'isbn' => '978-602-04-1375-4',
+            'isbn' => '9786020413754',
             'cover' => 'bob sadino.jpg',
             'pengarang' => 'Dodi Mawardi',
             'penerbit' => 'Kintami Publishing',
@@ -240,7 +240,7 @@ class UserSeeder extends Seeder
         ]);
         DB::table('ebooks')->insert([
             'judul' => 'Bibi Gill',
-            'isbn' => '978-623-97262-4-9',
+            'isbn' => '9786239726249',
             'cover' => 'bibi gill.jpg',
             'pengarang' => 'Tere Liye',
             'penerbit' => 'Gramedia Pustaka Utama',
@@ -249,7 +249,7 @@ class UserSeeder extends Seeder
         ]);
         DB::table('ebooks')->insert([
             'judul' => 'Bintang',
-            'isbn' => '978-602-03-5117-9',
+            'isbn' => '9786020351179',
             'cover' => 'bintang.jpg',
             'pengarang' => 'Tere Liye',
             'penerbit' => 'Gramedia Pustaka Utama',
@@ -258,7 +258,7 @@ class UserSeeder extends Seeder
         ]);
         DB::table('ebooks')->insert([
             'judul' => 'Teknik Grafika dan Industri Grafika jilid 1',
-            'isbn' => '978-979-060-068-3',
+            'isbn' => '9789790600683',
             'cover' => '',
             'pengarang' => 'Antonius Bowo Wasono',
             'penerbit' => 'Buku Sekolah Eletronik',
